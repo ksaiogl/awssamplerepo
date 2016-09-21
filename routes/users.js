@@ -12,6 +12,7 @@ router.get('/register', function(req, res){
 
 // Login
 router.get('/login', function(req, res){
+	console.log("inside login ----------")
 	res.render('login');
 });
 
